@@ -1,1 +1,0 @@
-# Scand-In-AB

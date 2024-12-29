@@ -64,3 +64,54 @@
         }
     }
 }
+section.contact-sec{
+    background: url("images/map.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 400px;
+    display: flex;
+}
+.section.contact-sec:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.contact-inner-block h3 {
+    color: #f3cb01;
+}
+.contact-inner-block{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.7);
+}
+.contact-inner-block .d-flex{
+    width: 33.33%;
+    margin: 0 5%;
+}
+.contact-inner-block p{
+    color: white;
+}
+.contact-inner-block img {
+        width: 30px
+}
+.mail {
+    display: flex;
+    margin-left: 1.5rem;
+}
+.mail img {
+    width: 20px;
+}
+.mail a{
+    padding-left: 0;
+    padding-right: 0;
+}
